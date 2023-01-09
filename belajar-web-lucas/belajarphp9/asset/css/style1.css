@@ -1,0 +1,17 @@
+#content table,tr,td {
+	border: 1px solid black;
+	margin: 10px;
+
+}
+#content  td,#content th {
+	text-align: center;
+}
+.all-btn{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	border: 2px solid black;
+	box-sizing: content-box;
+	padding: 0;
+}

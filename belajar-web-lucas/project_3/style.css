@@ -1,0 +1,39 @@
+.first-div {
+	background-color: red;
+	height: 80px;
+	width: auto;
+}
+.second-div {
+	background-color: darkgreen;
+	width: auto;
+	height: 80px;	
+}
+.third-div {
+	background-color: #2C394B;
+	height: 80px;
+	width: auto;
+}
+.four-div {
+	background-color: #2C394B;
+	width: auto;
+	height: 80px;	
+
+}
+.text-center {
+	text-align: center;
+	color: #ffffff;
+}
+.margin {
+	margin : 0 auto;
+	border-radius: 10px
+}
+.container {
+	background-color: #191A19;
+	height: 20pc;
+	width: 100%;
+}
+.wrappers {
+	display: flex;
+	background-color: yellow;
+	height: 150px;
+}
