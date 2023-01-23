@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="theme-color" content="black" />
+      <title>CRACK BY TJAH NGANJOEK</title>
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+      <style type="text/css" media="all">
+      @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+      * {
+         font-family: 'Cabin', sans-serif;
+         padding: 0;
+         margin: 0;
+      }
+      body {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         background-color: #202020;
+      }
+      .container {
+         display: flex;
+         justify-content: center;
+         align-items: end;
+         width: 100%;
+         height: 340px;
+         overflow: hidden;
+         
+      }
+      .container #one {
+         display: block;
+         color: white;
+         text-align: center;
+      }
+      @keyframes txt-kelap-kelip {
+         0% {
+            color : red;
+         }
+         100% {
+            color: black;
+         }
+      }
+      .container img {
+         height: 280px;
+         width: 280px;
+         display: inline-block;
+         position: absolute;
+         right: 12%;
+         bottom: 60%;
+         filter: invert(100%);
+      }
+       .text-1 {
+         color: white;
+         font-size: 18px;
+         letter-spacing: 2px;
+         text-align: center !important ;
+       
+      }
+      .text-2 {
+         color: white;
+         text-align: center;
+      }
+      .container #one .red , #red{
+         color: red;
+         animation: txt-kelap-kelip 0.5s infinite ease-in-out ;
+      } 
+      .null {
+         width: 100%;
+         height: 240px;
+      }
+      body .src-sc {
+         color: white;
+         text-align: center ;
+      } 
+      </style>
+   </head>
+   <body>   
+      <div class="content">
+         <div class="container">
+            <img src="https://cdn.pixabay.com/photo/2012/04/23/15/07/dragonfly-38412_1280.png" alt="capung">
+            <h1 id="one">Crack by <span class="red" id="red">Tjah Nganjoek</span></h1>
+         </div>
+         <h4 class="text-1">Wujud dari kesepian</h4>
+         <p class="text-2">Rasa sakit selalu menemani setiap langkahku, rasa sakit yang tak pernah hilang.Yang saya lakukan hanyalah mencari penghiburan dalam rasa sakit.</p>
+         <div class="null"></div>
+         <h5 class="src-sc">Script by LR</h5>
+      </div>
+      <script>
+         $(document).ready(() => {
+            const content = $(".content");
+            content.hide(0).delay(500).fadeIn(1000);
+         });
+      </script>
+   </body>
+</html>
